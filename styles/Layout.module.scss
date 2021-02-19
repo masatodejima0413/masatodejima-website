@@ -1,0 +1,33 @@
+.background_back {
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--c-whisper);
+}
+
+.background_front {
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.title {
+  margin: 0;
+  color: var(--c-irisblue);
+  font-size: 0px;
+  font-weight: 800;
+}
+
+.children {
+  opacity: 0;
+}

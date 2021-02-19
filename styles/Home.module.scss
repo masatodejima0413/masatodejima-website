@@ -12,3 +12,16 @@
   font-size: 64px;
   font-weight: 800;
 }
+
+.box {
+  background: var(--c-cloudburst);
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
