@@ -1,39 +1,20 @@
-import styles from "../styles/Home.module.scss";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import Layout from "../components/Layout";
+import React from 'react'
+import styles from '../styles/Home.module.scss'
+import Image from 'next/image'
+import Layout from '../components/Layout'
+import Title from '../components/Title'
+import PageLinks from '../components/PageLinks'
 
 const Home = () => {
   return (
     <div className={styles.background}>
-      {/* <motion.div
-        animate={{ scale: 0.5 }}
-        transition={{ duration: 2 }}
-        className={styles.box}
-      >
-        BOX
-      </motion.div> */}
-      <Layout title="masatodejima.com">
-        <ul>
-          <li>
-            <Link href="/About">
-              <a>About</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/Portfolio">
-              <a>Portfolio</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/Contact">
-              <a>Contact</a>
-            </Link>
-          </li>
-        </ul>
+      <Layout>
+        <Image src="/images/logo.svg" alt="logo" width={200} height={200} />
+        <Title title="masatodejima.com" />
+        <PageLinks />
       </Layout>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

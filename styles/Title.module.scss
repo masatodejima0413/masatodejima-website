@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.title {
+  margin: 0;
+  opacity: 0;
+  color: var(--c-irisblue);
+  font-size: 64px;
+  font-weight: 800;
+
+  @include mq(md) {
+    font-size: 40px;
+  }
+}
