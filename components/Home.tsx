@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../styles/Home.module.scss'
-import Layout from './Layout'
 import Header from './Header'
 import About from './About'
 import Skills from './Skills'
