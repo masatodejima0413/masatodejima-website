@@ -1,0 +1,21 @@
+.header_container {
+  display: flex;
+  // background: rgba(238, 238, 238, 0.3);
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--c-whisper);
+}
+
+.header_linklist {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  color: var(--c-irisblue);
+}

@@ -1,14 +1,17 @@
 import styles from '../styles/Contact.module.scss'
-import React from 'react'
-import Layout from '../components/Layout'
 import Title from '../components/Title'
+import Section from '../components/Section'
+import { MailSend } from '@styled-icons/boxicons-regular/MailSend'
 
 const Contact = () => {
   return (
-    <Layout>
-      <Title title="Contact" />
-      <div>please contact me</div>
-    </Layout>
+    <Section id="contact" backgroundColor="#f7f7f7">
+      <Title title="Contact" color="#ef476f" />
+      <MailSend className={styles.mailLogo} />
+      <a href="mailto:masatodejima@gmail.com" className={styles.mailaddress}>
+        masatodejima@gmail.com
+      </a>
+    </Section>
   )
 }
 

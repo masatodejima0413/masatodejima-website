@@ -1,18 +1,19 @@
 import React from 'react'
 import styles from '../styles/Home.module.scss'
-import Image from 'next/image'
 import Layout from '../components/Layout'
-import Title from '../components/Title'
-import PageLinks from '../components/PageLinks'
-
+import Header from '../components/Header'
+import About from '../components/About'
+import Skill from '../components/Skill'
+import Works from '../components/Works'
+import Contact from './Contact'
 const Home = () => {
   return (
     <div className={styles.background}>
-      <Layout>
-        <Image src="/images/logo.svg" alt="logo" width={200} height={200} />
-        <Title title="masatodejima.com" />
-        <PageLinks />
-      </Layout>
+      <Header />
+      <About />
+      <Skill />
+      <Works />
+      <Contact />
     </div>
   )
 }

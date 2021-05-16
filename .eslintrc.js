@@ -20,9 +20,9 @@ module.exports = {
   },
   root: true,
   rules: {
-    '@typescript-eslint/no-non-null-assertion': 2,
-    '@typescript-eslint/no-explicit-any': 2,
-    '@typescript-eslint/explicit-function-return-type': 2,
-    '@typescript-eslint/typedef': 2,
+    '@typescript-eslint/no-non-null-assertion': 1,
+    '@typescript-eslint/no-explicit-any': 1,
+    '@typescript-eslint/explicit-function-return-type': 1,
+    '@typescript-eslint/typedef': 1,
   },
 }

@@ -2,9 +2,8 @@
 
 .title {
   margin: 0;
-  opacity: 0;
-  color: var(--c-irisblue);
-  font-size: 64px;
+  margin-bottom: 30px;
+  font-size: 40px;
   font-weight: 800;
 
   @include mq(md) {

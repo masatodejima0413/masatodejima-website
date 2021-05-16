@@ -24,16 +24,38 @@ const PageLinks = () => {
           </a>
         </Link>
       </motion.li>
-      <li className={styles.pagelink}>
+      <motion.li
+        className={styles.pagelink}
+        whileHover={{
+          scale: 1.2,
+          color: 'var(--c-darkpink)',
+        }}
+      >
         <Link href="/Portfolio">
-          <a>Portfolio</a>
+          <a>
+            <Card>
+              <p className={styles.card_title}>portfolio</p>
+              <ArrowRight size={30} />
+            </Card>
+          </a>
         </Link>
-      </li>
-      <li className={styles.pagelink}>
+      </motion.li>
+      <motion.li
+        className={styles.pagelink}
+        whileHover={{
+          scale: 1.2,
+          color: 'var(--c-darkpink)',
+        }}
+      >
         <Link href="/Contact">
-          <a>Contact</a>
+          <a>
+            <Card>
+              <p className={styles.card_title}>contact</p>
+              <ArrowRight size={30} />
+            </Card>
+          </a>
         </Link>
-      </li>
+      </motion.li>
     </ul>
   )
 }

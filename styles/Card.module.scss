@@ -1,11 +1,54 @@
 .card {
-  width: 200px;
+  width: 25%;
   padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
   border-radius: 10px;
   border: 3px solid;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: white;
+  transition: all 1s ease-in-out;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--c-cloudburst);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.isExperienced {
+  font-size: 12px;
+  width: 70%;
+  background-color: var(--c-darkpink);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.isNotExperienced {
+  font-size: 12px;
+  width: 70%;
+  background-color: white;
+  border: 1px solid var(--c-darkpink);
+  border-radius: 20px;
+  color: var(--c-darkpink);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  color: var(--c-darkpink);
+  height: 30px;
+  cursor: pointer;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
 }

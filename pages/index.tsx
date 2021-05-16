@@ -7,7 +7,7 @@ export default function Index() {
     <div>
       <Head>
         <title>masatodejima.com</title>
-        <link rel="icon" href="/public/favicon.ico" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
       <Home />
     </div>

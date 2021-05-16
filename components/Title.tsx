@@ -1,12 +1,11 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 import styles from '../styles/Title.module.scss'
 
-const Title = ({ title }) => {
+const Title = ({ title, color }) => {
   return (
-    <motion.h1 className={styles.title} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}>
+    <h1 className={styles.title} style={{ color: `${color}` }}>
       {title}
-    </motion.h1>
+    </h1>
   )
 }
 
