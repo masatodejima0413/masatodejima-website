@@ -1,17 +1,17 @@
 import React from 'react'
 import styles from '../styles/Home.module.scss'
-import Layout from '../components/Layout'
-import Header from '../components/Header'
-import About from '../components/About'
-import Skill from '../components/Skill'
-import Works from '../components/Works'
+import Layout from './Layout'
+import Header from './Header'
+import About from './About'
+import Skills from './Skills'
+import Works from './Works'
 import Contact from './Contact'
 const Home = () => {
   return (
     <div className={styles.background}>
       <Header />
       <About />
-      <Skill />
+      <Skills />
       <Works />
       <Contact />
     </div>

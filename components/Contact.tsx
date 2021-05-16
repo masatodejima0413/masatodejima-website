@@ -1,6 +1,6 @@
 import styles from '../styles/Contact.module.scss'
-import Title from '../components/Title'
-import Section from '../components/Section'
+import Title from './Title'
+import Section from './Section'
 import { MailSend } from '@styled-icons/boxicons-regular/MailSend'
 
 const Contact = () => {
