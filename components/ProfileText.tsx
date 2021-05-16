@@ -3,7 +3,9 @@ import styles from '../styles/ProfileText.module.scss'
 const ProfileText = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>出島 賢人 / Masato Dejima</div>
+      <div className={styles.title}>
+        出島 賢人<span className={styles.englishName}> / Masato Dejima</span>
+      </div>
       <div>
         都内システム開発会社勤務/24歳/慶應義塾大学卒
         <br />

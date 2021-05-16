@@ -1,6 +1,13 @@
+@import './variables.scss';
+
 .container {
   width: 30%;
   padding: 10px;
+
+  @include mq(sm) {
+    width: 80%;
+    margin-bottom: 8px;
+  }
 }
 
 .image {

@@ -1,7 +1,13 @@
+@import './variables.scss';
+
 .profileimage_container {
   width: 40%;
   display: flex;
   justify-content: center;
+
+  @include mq(sm) {
+    width: 90%;
+  }
 }
 
 .profileimage {
@@ -11,4 +17,12 @@
   overflow: hidden;
   box-shadow: 0px 0px 20px -5px rgba(0, 173, 181, 0.8);
   object-fit: cover;
+
+  @include mq(sm) {
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
 }

@@ -1,17 +1,22 @@
-.wrapper {
-    display: flex;
-    flex-direction: column;
+@import './variables.scss';
 
-    p {
-        margin: 0;
-        font-weight: 700;
-    }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  @include mq(sm) {
+  }
 }
 
 .irisblue {
-    color: var(--c-irisblue);
+  color: var(--c-irisblue);
 }
 
 .darkpink {
-    color: var(--c-darkpink);
+  color: var(--c-darkpink);
 }

@@ -1,3 +1,5 @@
+@import './variables';
+
 .header_container {
   display: flex;
   // background: rgba(238, 238, 238, 0.3);
@@ -8,6 +10,10 @@
   padding-right: 50px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--c-whisper);
+
+  @include mq(sm) {
+    justify-content: center;
+  }
 }
 
 .header_linklist {
